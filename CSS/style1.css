@@ -1,0 +1,343 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+/*Main Page*/
+/*----------------------------------------------------*/
+.Headline{
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	border-left: 3px solid rgb(56,56,56);
+	border-right: 3px solid rgb(56,56,56);
+	background-image: url(../../Other/background3.jpg);
+}
+
+.Headline h1{
+	color: white;
+	font-size: 40px;
+	padding-top: 20px;
+	padding-bottom: 4px;
+	font-family: "comic sans ms", cursive, sans-serif;
+}
+
+.Headline p{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 20px;
+	color: white;
+	padding-bottom: 20px;
+}
+
+/*----------------------------------------------------*/
+
+.navBar{
+	font-family: "comic sans ms", cursive, sans-serif;
+	background-color: rgb(56,56,56);
+	opacity: 0.8;
+	float: right;
+	width: 12.5%;
+	border-right: 1px solid black;
+	border-left: 0.8px solid rgb(96,96,96);	
+	box-sizing: border-box;
+}
+
+.navBar h4{
+	text-align: center;
+	color: white;
+	padding: 4px 3px;
+	
+}
+
+.navBar h4:hover {
+	background-color: rgb(96,96,96);
+}
+
+.navBar ul li{
+	border-top: 1px solid black;
+	list-style: none;
+	display: none;
+}
+
+.navBar:hover ul li{
+	display: block;
+
+}
+
+.navBar a, a:link, a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+/*----------------------------------------------------*/
+
+.about {
+	padding: 70px 15px 40px 100px;
+	background-image: url('../../Other/Island3.jpg');
+	background-repeat: no-repeat;
+	height: 200px;
+	border-bottom: 1px solid #000;
+}
+
+.about p{
+	margin-left: 450px;
+	/*padding-top: 150px;*/
+	padding: 5px 5px 5px 0px;
+	margin-top: 150px;
+	/*height: 30px;*/
+	border: 1px;
+	background-color: rgba(255, 0, 0, 0.2);
+	color: white;
+}
+
+/*----------------------------------------------------*/
+
+.mainPage{
+	background-color: rgb(48,48,48);
+}
+
+/*.below{
+
+	background-color: rgb(48,48,48);
+	/*float: right;
+	width: 50%;
+	
+}
+*/
+/*--------------------------------*/
+
+.updates{
+
+	font-family: 'Nehama', serif;
+	padding: 50px 10px 10px 10px;
+	float: right;
+	list-style: none;
+	color: white;
+	font-size: 20px;
+}
+
+
+.date{
+	list-style: none;
+	float: right;
+	padding-top: 20px;
+}
+
+.event{
+	margin-right: 20px;
+	list-style: none;
+	float: right;
+	padding-top: 20px;
+}
+
+.event li{
+	padding-bottom: 10px;
+}
+
+/*--------------------------------*/
+
+
+.gallery {
+	float: left;
+	width: 70%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat (4, 1fr);
+	grid-gap: 10px;
+	padding: 30px 30px;
+}
+
+.gallery img{
+	
+	filter: grayscale(30%);
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center center;
+
+}
+
+
+.gallery img:hover {
+
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+
+
+
+.img1 {
+	grid-column: 1;
+	grid-row: 1/5;
+	height: 100%;
+}
+
+.img2 {
+	grid-column: 2;
+	grid-row: 1
+	height: 100%;
+}
+
+.img3 {
+	grid-column: 3;
+	grid-row: 1;
+	height: 100%;
+}
+
+.img4 {
+	grid-column: 4;
+	grid-row: 1;
+	height: 100%;
+}
+
+.img5 {
+	grid-column: 4/5;
+	grid-row: 2/4;
+	height: 100%;
+
+}
+
+.img6 {
+	grid-column: 2/4;
+	grid-row: 2/5;
+	height: 100%;
+}
+
+
+.img7 {
+	grid-row: 4;
+	grid-column: 4;
+	height: 100%
+}
+
+
+/*Chord Finder*/
+/*---------------------------------------------------------------------*/
+
+.chordFinder {
+	font-family: 'Nehama', serif;
+
+}
+
+.chooseChord {
+	
+	background-color: rgb(148,84,46);
+	color: white;
+	padding-top: 60px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	text-align: right;
+	
+}
+
+.chordIndex{
+	float: right;
+
+	margin: 54px 30px;
+}
+
+.chordIndex form{
+	float: right;
+	margin-right: 12px;
+}
+
+
+.chordIndex label {
+	float: right;
+	margin-right: 10px;
+	font-size: 30px;
+
+}
+
+.chordIndex select{
+	margin-right: 10px;
+}
+
+#chordSelect1{
+	height: 30px;
+}
+
+#chordSelect2{
+
+	height: 30px;
+}
+
+#Major{
+	display: none;
+}
+
+#Minor{
+	display: none;
+}
+
+#Seven{
+	display: none;
+}
+
+#m7{
+	display: none;
+}
+
+#maj7{
+	display: none;
+}
+
+#position{
+	height: 30px;
+}
+
+#chordType {
+	
+	margin: 0px 30px;
+}
+
+#greenDot1{
+
+	position: relative;
+	height: 28px;
+	width: 28px;
+	bottom: 154px;
+	display: none;
+
+}
+
+#greenDot2{
+	
+	position: relative;
+	height: 28px;
+	width: 28px;
+	bottom: 150px;
+	display: none;
+}
+
+#greenDot3{
+	
+	position: relative;
+	height: 28px;
+	width: 28px;
+	bottom: 146px;
+	display: none;
+}
+
+#greenDot4{
+	
+	position: relative;
+	height: 28px;
+	width: 28px;
+	bottom: 142px;
+	display: none;
+}
+
+
+
+.bottomLine {
+	background-color: rgb(148,84,46);
+	height: 120px;
+
+}
+
+
+
+
