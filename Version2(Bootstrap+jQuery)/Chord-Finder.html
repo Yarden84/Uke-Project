@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chord Finder</title>
+	<link rel="stylesheet" type="text/css" href="style-chordFinder.css">
+	<link href='http://serve.fontsproject.com/css?family=Nehama:400'
+	  rel='stylesheet' type='text/css'>
+
+
+	<script type="text/javascript" src="script-chordFinder.js"></script>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Jewkulele - Main Page</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="Jumbatron text-center">
+		<div class="container">	
+			<img src="img/ukeLogoL2R.png" id="ukeLogoL">
+			<img src="img/ukeLogoR2L.png" id="ukeLogoR">	
+			
+			<h1>Jewkulele.com</h1>
+			<p>The Hebrew Ukulele Site</p>
+
+		</div>	
+	
+	</div>
+
+	<nav class="navbar navbar-inverse navbar-static-top">
+	  <div class="container">
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav nav-tabs">
+	      	<li><a href="#">אודות</a></li>
+	      	<li><a href="#">קישורים</a></li>
+	      	<li><a href="#">גלריה</a></li>
+
+	      	<li class="dropdown active">
+	          <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">עזרים <span class="sr-only">(current)</span><span class="caret"></span></a>
+	          <ul class="dropdown-menu pull-right">
+	            <li><a href="tuner.html" class="pull-right">טיונר</a></li>
+	            <li><a href="Chord-Finder.html" class="pull-right">מנוע חיפוש אקורדים</a></li>
+	          </ul>
+	        </li>
+
+	        <li><a href="#">טאבים/אקורדים</a></li>
+	        <li><a href="#">?איך מנגנים</a></li>
+	        <li><a href="musicians.html">מוזיקאים</a></li>
+
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">על הכלי <span class="caret"></span></a>
+	          <ul class="dropdown-menu pull-right">
+	            <li><a href="Uke-Sizes.html" class="pull-right">גדלים</a></li>
+	            <li><a href="#" class="pull-right">סוגים</a></li>
+	            <li><a href="#" class="pull-right">קרובי משפחה</a></li>
+	          </ul>
+	        </li>
+
+	        <li><a href="index.html">דף הבית</a></li>   
+	      </ul>	      
+	    </div>
+	  </div>
+	</nav>
+
+	<div class="chordFinder">
+
+		<div class="chooseChord">
+			<h1>:בחר/י אקורד נשמה</h1>
+		</div>
+
+		<br>
+
+
+		<div class="chordIndex">
+			
+			<br>
+			<form>
+				<label>?איזה אקורד עושה לך את זה</label>
+				<select id="chordSelect1" onchange="showChordSelect2(); displayImg(); resetChord2(); resetPosition()">
+					<option value="-">-</option>
+					<option value="A">A</option>
+					<option value="Bb">Bb</option>
+					<option value="B">B</option>
+					<option value="C">C</option>
+					<option value="C#">C#</option>
+					<option value="D">D</option>
+					<option value="D#">D#</option>
+					<option value="E">E</option>
+					<option value="F">F</option>
+					<option value="F#">F#</option>
+					<option value="G">G</option>
+					<option value="G#">G#</option>
+				</select>
+				<select id="chordSelect2" onchange="resetPosition(); displayImg() ">
+					<option value="-">-</option>
+					<option value="Major" id="Major">Major</option>
+					<option value="Minor" id="Minor">Minor</option>
+					<option value="7" id="Seven">7</option>
+					<option value="m7" id="m7">m7</option>
+					<option value="maj7" id="maj7">maj7</option>
+				</select>
+			</form>
+
+			<form>
+				<label>?תנוחה אהובה</label>
+				<select id="position" onchange="displayImg()">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</form>
+
+
+
+		</div>
+
+		<div>
+			<img src="img/Ukulele Neck.jpg" alt="not working" id="chordType">
+		</div>
+
+		<div>
+			<img src="img/green dot.jpg" alt="not working" id="greenDot1">
+		</div>
+		<div>
+			<img src="img/green dot.jpg" alt="not working" id="greenDot2">
+		</div>
+		<div>
+			<img src="img/green dot.jpg" alt="not working" id="greenDot3">
+		</div>
+		<div>
+			<img src="img/green dot.jpg" alt="not working" id="greenDot4">
+		</div>
+
+		
+		<br>
+
+		<div class="bottomLine"></div>
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

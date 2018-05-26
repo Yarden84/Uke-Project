@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tuner</title>
+
+	<link rel="stylesheet" type="text/css" href="style-tuner.css">
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="Jumbatron text-center">
+        <div class="container"> 
+            <img src="img/ukeLogoL2R.png" id="ukeLogoL">
+            <img src="img/ukeLogoR2L.png" id="ukeLogoR">    
+            
+            <h1>Jewkulele.com</h1>
+            <p>The Hebrew Ukulele Site</p>
+
+        </div>  
+    
+    </div>
+
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        
+        <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav nav-tabs">
+            <li><a href="#">אודות</a></li>
+            <li><a href="#">קישורים</a></li>
+            <li><a href="#">גלריה</a></li>
+
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">עזרים <span class="sr-only">(current)</span><span class="caret"></span></a>
+              <ul class="dropdown-menu pull-right">
+                <li><a href="tuner.html" class="pull-right">טיונר</a></li>
+                <li><a href="Chord-Finder.html" class="pull-right">מנוע חיפוש אקורדים</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#">טאבים/אקורדים</a></li>
+            <li><a href="#">?איך מנגנים</a></li>
+            <li><a href="musicians.html">מוזיקאים</a></li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">על הכלי <span class="caret"></span></a>
+              <ul class="dropdown-menu pull-right">
+                <li><a href="Uke-Sizes.html" class="pull-right">גדלים</a></li>
+                <li><a href="#" class="pull-right">סוגים</a></li>
+                <li><a href="#" class="pull-right">קרובי משפחה</a></li>
+              </ul>
+            </li>
+
+            <li><a href="index.html">דף הבית</a></li>   
+          </ul>       
+        </div>
+      </div>
+    </nav>
+
+
+    <div id="headline">
+            
+    </div>
+
+    <div id="ukeNeck">
+        <img src="img/Ukulele Neck.jpg" alt="not working" id="chordType">
+    </div>
+
+    <div id="bottomLine"></div>
+
+
+    <div class="container">
+       
+        
+        <button class="btn btn-success" id="btnG">
+            <p>G</p>
+        </button>
+
+        
+
+        <button class="btn btn-success" id="btnC">
+            <p>C</p>
+        </button>
+
+        
+
+        <button class="btn btn-success" id="btnE">
+            <p>E</p>
+        </button>
+
+        
+
+        <button class="btn btn-success" id="btnA">
+            <p>A</p>
+        </button>
+
+        
+
+        <audio id="ukeG">
+            <source src="audio/uke-G.wav" type="audio/wav">   
+        </audio>
+        <audio id="ukeC">
+            <source src="audio/uke-C.wav" type="audio/wav">   
+        </audio>
+        <audio id="ukeE">
+            <source src="audio/uke-E.wav" type="audio/wav">   
+        </audio>
+        <audio id="ukeA">
+            <source src="audio/uke-A.wav" type="audio/wav">   
+        </audio>
+
+        
+    </div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="script-tuner.js"></script>
+</body>
+</html>

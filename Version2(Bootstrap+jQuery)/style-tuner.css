@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+/*Main Page*/
+
+/*----------------------------------------------------*/
+
+/*Headline*/
+
+.Jumbatron{
+	padding-top: 20px;
+	background-color: #ffc180;
+}
+
+.Jumbatron h1{
+	font-size: 47px;
+	color: white;
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+	text-shadow: 3px 1px black;
+	
+}
+
+.Jumbatron p{
+	font-weight: bold;
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#ukeLogoL{
+	height: 120PX;
+	width: 120PX;
+	float: left;
+}
+
+#ukeLogoR{
+	height: 120PX;
+	width: 120PX;
+	float: right;
+}
+
+/*----------------------------------------------------*/
+
+/*navbar*/
+
+.navbar.navbar-inverse{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+
+/*----------------------------------------------------*/
+
+#headline{
+	background-color: rgb(148,84,46);
+	height: 149px;
+	
+}
+
+#ukeNeck{
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+#bottomLine{
+	margin-top: 50px;
+	background-color: rgb(148,84,46);
+	height: 149px;
+}
+
+.btn.btn-success{
+	border-radius: 25px;
+	height: 30px;
+	width: 30px;
+	border: 1px solid black;
+	outline: none !important;
+}
+
+.btn.btn-success p{
+	position: relative;
+	bottom: 2px;
+	right: 3px;
+
+}
+
+#btnG{
+	position: absolute;
+	bottom: 80px;
+	left: 235px;
+}
+
+#btnC{
+	position: absolute;
+	bottom: 82px;
+	left: 130px;
+}
+
+#btnE{
+	position: absolute;
+	bottom: 160px;
+	left: 130px;
+}
+
+#btnA{
+	position: absolute;
+	bottom: 160px;
+	left: 235px;
+}
+
+
+

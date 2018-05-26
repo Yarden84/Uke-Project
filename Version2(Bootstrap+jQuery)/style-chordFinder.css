@@ -1,0 +1,193 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+/*----------------------------------------------------*/
+
+/*Headline*/
+
+.Jumbatron{
+	padding-top: 20px;
+	background-color: #ffc180;
+}
+
+.Jumbatron h1{
+	font-size: 47px;
+	color: white;
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+	text-shadow: 3px 1px black;
+	
+}
+
+.Jumbatron p{
+	font-weight: bold;
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#ukeLogoL{
+	height: 120PX;
+	width: 120PX;
+	float: left;
+}
+
+#ukeLogoR{
+	height: 120PX;
+	width: 120PX;
+	float: right;
+}
+
+/*----------------------------------------------------*/
+
+/*navbar*/
+
+.navbar.navbar-inverse{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+
+/*----------------------------------------------------*/
+
+.chordFinder {
+	font-family: 'Nehama', serif;
+
+}
+
+.chooseChord {
+	
+	background-color: rgb(148,84,46);
+	color: white;
+	padding-top: 60px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	text-align: right;
+	
+}
+
+.chordIndex{
+	float: right;
+
+	margin: 54px 30px;
+}
+
+
+
+.chordIndex form{
+	float: right;
+	margin-right: 12px;
+}
+
+
+.chordIndex label {
+	float: right;
+	margin-right: 10px;
+	font-size: 30px;
+
+}
+
+.chordIndex select{
+	margin-right: 10px;
+}
+
+#chordSelect1{
+	height: 30px;
+}
+
+#chordSelect1 option{
+	font-family: initial;
+	
+}
+
+#chordSelect2{
+
+	height: 30px;
+}
+
+#chordSelect2 option{
+	font-family: initial;
+	
+}
+
+#Major{
+	display: none;
+}
+
+#Minor{
+	display: none;
+}
+
+#Seven{
+	display: none;
+}
+
+#m7{
+	display: none;
+}
+
+#maj7{
+	display: none;
+}
+
+#position{
+	height: 30px;
+	font-size: 20px;
+	font-family: default;
+}
+
+
+
+#chordType {
+	
+	margin: 0px 30px;
+}
+
+#greenDot1{
+
+	position: relative;
+	height: 28px;
+	width: 28px;
+	bottom: 154px;
+	display: none;
+
+}
+
+#greenDot2{
+	
+	position: relative;
+	height: 28px;
+	width: 28px;
+	bottom: 150px;
+	display: none;
+}
+
+#greenDot3{
+	
+	position: relative;
+	height: 28px;
+	width: 28px;
+	bottom: 146px;
+	display: none;
+}
+
+#greenDot4{
+	
+	position: relative;
+	height: 28px;
+	width: 28px;
+	bottom: 142px;
+	display: none;
+}
+
+
+
+.bottomLine {
+	background-color: rgb(148,84,46);
+	height: 120px;
+
+}
+
+
+

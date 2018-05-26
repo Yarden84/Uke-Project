@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+/*Main Page*/
+
+/*----------------------------------------------------*/
+
+/*Headline*/
+
+.Jumbatron{
+	padding-top: 20px;
+	background-color: #ffc180;
+}
+
+.Jumbatron h1{
+	font-size: 47px;
+	color: white;
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+	text-shadow: 3px 1px black;
+	
+}
+
+.Jumbatron p{
+	font-weight: bold;
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#ukeLogoL{
+	height: 120PX;
+	width: 120PX;
+	float: left;
+}
+
+#ukeLogoR{
+	height: 120PX;
+	width: 120PX;
+	float: right;
+}
+
+/*----------------------------------------------------*/
+
+/*navbar*/
+
+.navbar.navbar-inverse{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+
+/*----------------------------------------------------*/
+
+#img-1{
+	margin-top: 20px;
+	position: relative;
+	margin-bottom: -100px;
+	opacity: 0.6;
+}
+
+#textImg1{
+	font-family: 'Drugulin CLM', serif;
+	position: relative;
+	text-align: center;
+	bottom: 115px;
+	font-size: 75px;	
+}
+
+#p-1{
+	position: relative;
+}
+
+#p-1-continue{
+	position: relative;
+	width: 720px;
+	bottom: 60px;
+}
+
+#img-2{
+	margin-top: 20px;
+	position: relative;
+	margin-bottom: -100px;
+	opacity: 0.6;
+}
+
+#textImg2{
+	font-family: 'Drugulin CLM', serif;
+	position: relative;
+	text-align: center;
+	bottom: 115px;
+	font-size: 75px;	
+}
+
+
+#p-2{
+	position: relative;
+}
+
+#p-2-continue{
+	position: relative;
+	width: 720px;
+	bottom: 60px;
+}
+
+#img-3{
+	margin-top: 20px;
+	position: relative;
+	margin-bottom: -100px;
+	opacity: 0.6;
+}
+
+#textImg3{
+	font-family: 'Drugulin CLM', serif;
+	position: relative;
+	text-align: center;
+	bottom: 115px;
+	font-size: 75px;	
+}
+
+#p-3{
+	position: relative;
+}
+
+#p-3-continue{
+	position: relative;
+	width: 720px;
+	bottom: 60px;
+}
+
+#img-4{
+	margin-top: 20px;
+	position: relative;
+	margin-bottom: -100px;
+	opacity: 0.6;
+}
+
+#textImg4{
+	font-family: 'Drugulin CLM', serif;
+	position: relative;
+	text-align: center;
+	bottom: 115px;
+	font-size: 75px;	
+}
+
+#p-4{
+	position: relative;
+}
+
+#p-4-continue{
+	position: relative;
+	width: 720px;
+	bottom: 60px;
+}
