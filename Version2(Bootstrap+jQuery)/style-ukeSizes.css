@@ -52,7 +52,10 @@
 
 /*----------------------------------------------------*/
 
-
+#baritone{
+	position: relative;
+	padding-left: 80px;
+}
 
 #baritone h1{
 	font-family: 'Drugulin CLM', serif;
@@ -63,7 +66,7 @@
 
 #baritoneImg{
 	position: relative;
-	margin-left: 100px;
+	margin-left: 30px;
 	top: 20px;
 }
 
@@ -71,8 +74,8 @@
 	font-family: 'Nehama', serif;
 	font-size: 16px;
 	position: absolute;
-	right: 830px;
-	top: 300px;
+	right: 85px;
+	top: 100px;
 }
 
 #baritoneData ul li ul li{
@@ -85,6 +88,10 @@
 }
 
 /*--------------------------------------*/
+
+#tenor{
+	position: relative;
+}
 
 #tenor h1{
 	font-family: 'Drugulin CLM', serif;
@@ -103,8 +110,8 @@
 	font-family: 'Nehama', serif;
 	font-size: 16px;
 	position: absolute;
-	right: 580px;
-	top: 330px;
+	left: 7px;
+	top: 140px;
 }
 
 #tenorData ul li ul li{
@@ -117,6 +124,10 @@
 }
 
 /*--------------------------------------*/
+
+#concert{
+	position: relative;
+}
 
 #concert h1{
 	font-family: 'Drugulin CLM', serif;
@@ -135,8 +146,8 @@
 	font-family: 'Nehama', serif;
 	font-size: 16px;
 	position: absolute;
-	right: 375px;
-	top: 360px;
+	left: 7px;
+	top: 160px;
 }
 
 #concertData ul li ul li{
@@ -149,6 +160,10 @@
 }
 
 /*--------------------------------------*/
+
+#soprano{
+	position: relative;
+}
 
 #soprano h1{
 	font-family: 'Drugulin CLM', serif;
@@ -167,8 +182,8 @@
 	font-family: 'Nehama', serif;
 	font-size: 16px;
 	position: absolute;
-	right: 170px;
-	top: 400px;
+	left: 10px;
+	top: 200px;
 }
 
 #sopranoData ul li ul li{
@@ -179,4 +194,5 @@
 .sopranoHover{
 	opacity: 0.7;
 }
+
 

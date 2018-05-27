@@ -108,7 +108,7 @@ function changeStatus(a){
 
 function moveEle(a){
 
-	var positionArr = [['baritone', 55],['tenor',25],['concert',35],['soprano',25]];
+	var positionArr = [['baritone', 35],['tenor',25],['concert',35],['soprano',25]];
 	var i=0;
 	
 	while (positionArr[i][0] != a || i>3){
@@ -121,6 +121,7 @@ function moveEle(a){
 	
 	$('#'+a+'Img').animate({
 		left: 70
+		// padding-right: 30
 	});
 
 	$('#'+a+'Data').slideDown();
