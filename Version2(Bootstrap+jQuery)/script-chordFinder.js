@@ -1,16 +1,16 @@
-function findChord(n, c1, c2){
+	function findChord(n, c1, c2){
 				
 				var i=0; j=0;
 				chordParts = ['first', 'third', 'fifth', 'seventh'];
 				
 				/*finding the notes of the chord:*/
-				while (n[i] != c1){
+				while (n[i] !== c1){
 					i++;
 				}
 				chordParts[0] = n[i];
 				j=i;
 
-				if (c2 == 'Major' || c2 == '7' || c2 == 'maj7'){
+				if (c2 === 'Major' || c2 === '7' || c2 === 'maj7'){
 					if (i+4 > 11){
 						i = (i+4)%11 - 1;
 					}else{
@@ -43,7 +43,7 @@ function findChord(n, c1, c2){
 
 				}
 
-				if (c2 == '7' || c2 == 'm7'){
+				if (c2 === '7' || c2 === 'm7'){
 					if (j+10 > 11){
 						j = (j+10)%11 - 1;
 					}else{
@@ -162,3 +162,40 @@ function findChord(n, c1, c2){
 			document.getElementById('position').options[0].selected = 'selected';
 		}
 		
+
+		function playChord(){
+
+            var string1 = [['A', 0], ['Bb', 360], ['B', 418], ['C2', 470], ['C#2', 518], ['D2', 566], ['D#2', 610], ['E2', 652], ['F2', 690], ['F#2', 730], ['G2', 764], ['G#2', 798]];
+            var string2 = [['E', 0], ['F', 360], ['F#', 418], ['G', 470], ['G#', 518],['A', 566], ['Bb', 610], ['B', 652], ['C2', 690], ['C#2', 730], ['D2', 764], ['D#2', 798]];
+            var string3 = [['C', 0], ['C#', 360], ['D', 418], ['D#', 470], ['E', 518], ['F', 566], ['F#', 610], ['G', 652], ['G#', 690], ['A', 730], ['Bb', 764], ['B', 798]];
+            var string4 = [['G', 0], ['G#', 360], ['A', 418], ['Bb', 470], ['B', 518], ['C2', 566], ['C#2', 610], ['D2', 652], ['D#2', 690], ['E2', 730], ['F2', 764], ['F#2', 798]];
+			var stringArr = [string1, string2, string3, string4];
+
+            var dot1Position = document.getElementById('greenDot1').style.left;
+            var dot2Position =  document.getElementById('greenDot2').style.left;
+            var dot3Position =  document.getElementById('greenDot3').style.left;
+            var dot4Position =  document.getElementById('greenDot4').style.left;
+
+            var dotArr = [Number(dot1Position.slice(0, 3)), Number(dot2Position.slice(0, 3)), Number(dot3Position.slice(0, 3)), Number(dot4Position.slice(0, 3))];
+
+            for (i=0; i<4; i++){
+                if (document.getElementById('greenDot'+(i+1)).style.opacity == 0.0) {
+                    dotArr[i] = 0;
+                }
+			}
+
+
+            var stringAudio = [];
+
+            for (i=0; i<3; i++){
+            	var j=0;
+				while (stringArr[i][j][1] != dotArr[i] && j<stringArr[i].length){
+					j++;
+				}
+				stringAudio[i] = document.getElementById('uke'+stringArr[i][j][0]);
+
+
+            }
+
+			return stringAudio[0].play(), stringAudio[1].play(), stringAudio[2].play(), stringAudio[3].play();
+		}
