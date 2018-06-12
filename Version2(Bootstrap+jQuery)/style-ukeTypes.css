@@ -13,7 +13,23 @@
 
 .Jumbatron{
     padding-top: 20px;
-    background-color: #ffc180;
+    position: relative;
+    background-image: url("img/ukeBG.jpg");
+    background-position: 0 0;
+    background-repeat: repeat-y;
+    animation: animate 40s linear infinite;
+}
+
+@keyframes animate{
+    0% {
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 0 100%;
+    }
+    100%{
+        background-position: 0 0;
+    }
 }
 
 .Jumbatron h1{
@@ -121,6 +137,7 @@
     margin-right: 20px;
     border: 1px solid black;
 }
+
 
 #uhrpImg{
     height: 170px;

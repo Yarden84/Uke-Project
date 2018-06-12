@@ -13,7 +13,23 @@
 
 .Jumbatron{
 	padding-top: 20px;
-	background-color: #ffc180;
+	position: relative;
+	background-image: url("img/ukeBG.jpg");
+	background-position: 0 0;
+	background-repeat: repeat-y;
+	animation: animate 40s linear infinite;
+}
+
+@keyframes animate{
+	0% {
+		background-position: 0 0;
+	}
+	50%{
+		background-position: 0 100%;
+	}
+	100%{
+		background-position: 0 0;
+	}
 }
 
 .Jumbatron h1{
@@ -30,17 +46,6 @@
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
-#ukeLogoL{
-	height: 120PX;
-	width: 120PX;
-	float: left;
-}
-
-#ukeLogoR{
-	height: 120PX;
-	width: 120PX;
-	float: right;
-}
 
 /*----------------------------------------------------*/
 
@@ -54,11 +59,13 @@
 
 /*----------------------------------------------------*/
 
+
 #img-1{
 	margin-top: 20px;
 	position: relative;
 	margin-bottom: -100px;
 	opacity: 0.6;
+	cursor: pointer;
 }
 
 #textImg1{
@@ -66,7 +73,8 @@
 	position: relative;
 	text-align: center;
 	bottom: 115px;
-	font-size: 75px;	
+	font-size: 75px;
+	cursor: pointer;
 }
 
 #p-1{
@@ -84,6 +92,7 @@
 	position: relative;
 	margin-bottom: -100px;
 	opacity: 0.6;
+	cursor: pointer;
 }
 
 #textImg2{
@@ -91,7 +100,8 @@
 	position: relative;
 	text-align: center;
 	bottom: 115px;
-	font-size: 75px;	
+	font-size: 75px;
+	cursor: pointer;
 }
 
 
@@ -110,6 +120,7 @@
 	position: relative;
 	margin-bottom: -100px;
 	opacity: 0.6;
+	cursor: pointer;
 }
 
 #textImg3{
@@ -117,7 +128,8 @@
 	position: relative;
 	text-align: center;
 	bottom: 115px;
-	font-size: 75px;	
+	font-size: 75px;
+	cursor: pointer;
 }
 
 #p-3{
@@ -135,6 +147,7 @@
 	position: relative;
 	margin-bottom: -100px;
 	opacity: 0.6;
+	cursor: pointer;
 }
 
 #textImg4{
@@ -142,7 +155,8 @@
 	position: relative;
 	text-align: center;
 	bottom: 115px;
-	font-size: 75px;	
+	font-size: 75px;
+	cursor: pointer;
 }
 
 #p-4{
