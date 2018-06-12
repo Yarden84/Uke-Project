@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/*Main Page*/
+
+/*----------------------------------------------------*/
+
+/*Headline*/
+
+.Jumbatron{
+    padding-top: 20px;
+    background-color: #ffc180;
+}
+
+.Jumbatron h1{
+    font-size: 47px;
+    color: white;
+    text-shadow: 3px 1px black;
+
+}
+
+.Jumbatron p{
+    font-weight: bold;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#ukeLogoL{
+    height: 120PX;
+    width: 120PX;
+    float: left;
+}
+
+#ukeLogoR{
+    height: 120PX;
+    width: 120PX;
+    float: right;
+}
+
+/*----------------------------------------------------*/
+
+/*navbar*/
+
+.navbar.navbar-inverse{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+/*----------------------------------------------------*/
+
+/*Banjolele*/
+
+#banjoleleBG{
+    padding-bottom: 20px;
+    background: linear-gradient(to bottom, #304352, #d7d2cc);
+}
+
+#banjoleleH{
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+    color: white;
+    top: 20px;
+    font-size: 50px;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#banjolele{
+    width: 300px;
+    height: 250px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+#bjlImg{
+    height: 170px;
+    width: 170px;
+}
+
+#about1{
+    top: 40px;
+    padding-left: 40px;
+    line-height: 2;
+}
+
+#carousel1{
+    padding-top: 10px;
+    padding-left: 40px;
+
+}
+
+#vid1{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+/*-----------------------------------------------------------------*/
+/*Harp Ukulele*/
+
+#harpUkeBG{
+    padding-bottom: 20px;
+    background: linear-gradient(to bottom, #373b44, #73c8a9);
+}
+
+#harpUkeH{
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+    color: white;
+    top: 20px;
+    font-size: 50px;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#harpUkulele{
+    width: 300px;
+    height: 250px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+#uhrpImg{
+    height: 170px;
+    width: 170px;
+}
+
+#about2{
+    top: 40px;
+    padding-left: 40px;
+    line-height: 2;
+}
+
+#carousel2{
+    padding-top: 10px;
+    padding-left: 40px;
+
+}
+
+#vid2{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+/*-----------------------------------------------------------------*/
+/*Electric Ukulele*/
+
+#eleUkeBG{
+    padding-bottom: 20px;
+    background: linear-gradient(to bottom, #649173, #dbd5a4);
+}
+
+#eleUkeH{
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+    color: white;
+    top: 20px;
+    font-size: 50px;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#electricUkulele{
+    width: 300px;
+    height: 250px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+#eukeImg{
+    height: 170px;
+    width: 170px;
+}
+
+#about3{
+    top: 40px;
+    padding-left: 40px;
+    line-height: 2;
+}
+
+#carousel3{
+    padding-top: 10px;
+    padding-left: 40px;
+
+}
+
+#vid3{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+/*-----------------------------------------------------------------*/
+/*UBass*/
+
+#uBassBG{
+    padding-bottom: 20px;
+    background: linear-gradient(to bottom, #5d4157, #a8caba);
+}
+
+#uBassH{
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+    color: white;
+    top: 20px;
+    font-size: 50px;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#uBass{
+    width: 300px;
+    height: 250px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+#uBassImg{
+    height: 170px;
+    width: 170px;
+}
+
+#about4{
+    top: 40px;
+    padding-left: 40px;
+    line-height: 2;
+}
+
+#carousel4{
+    padding-top: 10px;
+    padding-left: 40px;
+
+}
+
+#vid4{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+/*-----------------------------------------------------------------*/
+/*All Carousels*/
+
+.carousel-inner{
+    width: 150px;
+    height: 180px;
+
+}
+
+.carousel-control.left{
+    padding-top: 80px;
+}
+
+.carousel-control.right{
+    padding-top: 80px;
+}
+
+.well{
+    background: none !important;
+    border: none !important;
+}
+
+/*-----------------------------------------------------------------*/
+
+

@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/*Main Page*/
+
+/*----------------------------------------------------*/
+
+/*Headline*/
+
+.Jumbatron{
+    padding-top: 20px;
+    background-color: #ffc180;
+}
+
+.Jumbatron h1{
+    font-size: 47px;
+    color: white;
+    text-shadow: 3px 1px black;
+
+}
+
+.Jumbatron p{
+    font-weight: bold;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#ukeLogoL{
+    height: 120PX;
+    width: 120PX;
+    float: left;
+}
+
+#ukeLogoR{
+    height: 120PX;
+    width: 120PX;
+    float: right;
+}
+
+/*----------------------------------------------------*/
+
+/*navbar*/
+
+.navbar.navbar-inverse{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+/*----------------------------------------------------*/
+
+#BG{
+    background-color: #e6e6e6;
+}
+
+/*----------------------------------------------------*/
+
+/*Cuatro*/
+
+#cuatroBG{
+    padding-bottom: 20px;
+}
+
+#cuatroH{
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+    color: white;
+    top: 20px;
+    font-size: 50px;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#cuatro{
+    width: 204px;
+    height: 170px;
+    position: relative;
+    right: 45px;
+    top: 40px;
+}
+
+#whiteCircle1{
+    background-color: white;
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+
+#cuatroImg{
+    height: 170px;
+    width: 170px;
+}
+
+#about1{
+    top: 40px;
+    padding-left: 40px;
+    line-height: 2;
+}
+
+#pics1{
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+#pics1 img{
+    height: 215px;
+    width: 215px;
+}
+
+
+#vid1{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+/*-----------------------------------------------------------------*/
+
+/*Cavaquinho*/
+
+#cavaBG{
+    padding-bottom: 20px;
+}
+
+#cavaH{
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+    color: white;
+    top: 20px;
+    font-size: 50px;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#cava{
+    width: 204px;
+    height: 170px;
+    position: relative;
+    right: 45px;
+    top: 40px;
+}
+
+#whiteCircle2{
+    background-color: white;
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+#cavaImg{
+    height: 170px;
+    width: 170px;
+}
+
+#about2{
+    top: 40px;
+    padding-left: 40px;
+    line-height: 2;
+}
+
+#pics2{
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+#pics2 img{
+    height: 215px;
+    width: 215px;
+}
+
+
+#vid2{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+/*-----------------------------------------------------------------*/
+
+/*Rajao*/
+
+#charangoBG{
+    padding-bottom: 20px;
+}
+
+#charangoH{
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+    color: white;
+    top: 20px;
+    font-size: 50px;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#charango{
+    width: 204px;
+    height: 170px;
+    position: relative;
+    right: 45px;
+    top: 40px;
+}
+
+#whiteCircle3{
+    background-color: white;
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+
+#charangoImg{
+    height: 170px;
+    width: 170px;
+}
+
+#about3{
+    top: 40px;
+    padding-left: 40px;
+    line-height: 2;
+}
+
+#pics3{
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+#pics3 img{
+    height: 215px;
+    width: 215px;
+}
+
+
+#vid3{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+/*-----------------------------------------------------------------*/
+
+/*Timple*/
+
+#timpleBG{
+    padding-bottom: 20px;
+}
+
+#timpleH{
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+    color: white;
+    top: 20px;
+    font-size: 50px;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#timple{
+    width: 204px;
+    height: 170px;
+    position: relative;
+    right: 45px;
+    top: 40px;
+}
+
+#whiteCircle4{
+    background-color: white;
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+
+#timpleImg{
+    height: 170px;
+    width: 170px;
+}
+
+#about4{
+    top: 40px;
+    padding-left: 40px;
+    line-height: 2;
+}
+
+#pics4{
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+#pics4 img{
+    height: 215px;
+    width: 215px;
+}
+
+
+#vid4{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+/*-----------------------------------------------------------------*/
+
+#divider1{
+    border-bottom: #761c19 solid 2px;
+    margin-left: 20px;
+}
+
+#divider2{
+    border-bottom: #761c19 solid 2px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+#divider3{
+    border-bottom: #761c19 solid 2px;
+    margin-right: 20px;
+}
+
+#divider4{
+    border-bottom: #761c19 solid 2px;
+    margin-top: 10px;
+    margin-right: 100px;
+}

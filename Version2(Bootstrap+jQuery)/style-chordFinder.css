@@ -51,12 +51,12 @@
 
 /*----------------------------------------------------*/
 
-.chordFinder {
+.chordFinder{
 	font-family: 'Nehama', serif;
 
 }
 
-.chooseChord {
+.chooseChord{
 	
 	background-color: rgb(148,84,46);
 	color: white;
@@ -69,7 +69,6 @@
 
 .chordIndex{
 	float: right;
-
 	margin: 54px 30px;
 }
 
@@ -98,11 +97,9 @@
 
 #chordSelect1 option{
 	font-family: initial;
-	
 }
 
 #chordSelect2{
-
 	height: 30px;
 }
 
@@ -163,7 +160,6 @@
 	position: relative;
 	height: 28px;
 	width: 28px;
-	bottom: 154px;
 	display: none;
 
 }
@@ -173,7 +169,6 @@
 	position: relative;
 	height: 28px;
 	width: 28px;
-	bottom: 150px;
 	display: none;
 }
 
@@ -182,7 +177,6 @@
 	position: relative;
 	height: 28px;
 	width: 28px;
-	bottom: 146px;
 	display: none;
 }
 
@@ -191,7 +185,6 @@
 	position: relative;
 	height: 28px;
 	width: 28px;
-	bottom: 142px;
 	display: none;
 }
 
@@ -200,7 +193,6 @@
 .bottomLine {
 	background-color: rgb(148,84,46);
 	height: 120px;
-
 }
 
 
