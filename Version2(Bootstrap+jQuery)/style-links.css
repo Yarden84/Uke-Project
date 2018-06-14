@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/*Main Page*/
+
+/*----------------------------------------------------*/
+
+/*Headline*/
+
+.Jumbatron{
+    padding-top: 20px;
+    position: relative;
+    background-image: url("img/ukeBG.jpg");
+    background-position: 0 0;
+    background-repeat: repeat-y;
+    animation: animate 40s linear infinite;
+}
+
+@keyframes animate{
+    0% {
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 0 100%;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+
+.Jumbatron h1{
+    font-size: 47px;
+    color: white;
+    text-shadow: 3px 1px black;
+
+}
+
+.Jumbatron p{
+    font-weight: bold;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+
+/*----------------------------------------------------*/
+
+/*navbar*/
+
+.navbar.navbar-inverse{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+/*----------------------------------------------------*/
