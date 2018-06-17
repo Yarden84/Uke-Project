@@ -61,9 +61,9 @@
 /*Banjolele*/
 
 #banjoleleBG{
-    padding-bottom: 20px;
     background: linear-gradient(to bottom, #304352, #d7d2cc);
 }
+
 
 #banjoleleH{
     font-family: 'Amatic SC', cursive;
@@ -75,8 +75,10 @@
 }
 
 #banjolele{
-    width: 300px;
-    height: 250px;
+    position: relative;
+    top: 10px;
+    width: 90%;
+    height: 100%;
     margin-right: 20px;
     border: 1px solid black;
 }
@@ -87,27 +89,32 @@
 }
 
 #about1{
-    top: 40px;
+    padding-top: 20px;
     padding-left: 40px;
+    text-align: justify;
     line-height: 2;
 }
 
 #carousel1{
-    padding-top: 10px;
     padding-left: 40px;
-
 }
 
 #vid1{
-    padding-top: 20px;
     padding-left: 40px;
+}
+
+#buttons1{
+    margin-bottom: 20px;
+}
+
+#details1{
+    height: 245px;
 }
 
 /*-----------------------------------------------------------------*/
 /*Harp Ukulele*/
 
 #harpUkeBG{
-    padding-bottom: 20px;
     background: linear-gradient(to bottom, #373b44, #73c8a9);
 }
 
@@ -121,8 +128,8 @@
 }
 
 #harpUkulele{
-    width: 300px;
-    height: 250px;
+    width: 90%;
+    height: 100%;
     margin-right: 20px;
     border: 1px solid black;
 }
@@ -134,27 +141,33 @@
 }
 
 #about2{
-    top: 40px;
+    padding-top: 20px;
     padding-left: 40px;
+    text-align: justify;
     line-height: 2;
 }
 
 #carousel2{
-    padding-top: 10px;
     padding-left: 40px;
 
 }
 
 #vid2{
-    padding-top: 20px;
     padding-left: 40px;
+}
+
+#buttons2{
+    margin-bottom: 20px;
+}
+
+#details2{
+    height: 245px;
 }
 
 /*-----------------------------------------------------------------*/
 /*Electric Ukulele*/
 
 #eleUkeBG{
-    padding-bottom: 20px;
     background: linear-gradient(to bottom, #649173, #dbd5a4);
 }
 
@@ -168,8 +181,8 @@
 }
 
 #electricUkulele{
-    width: 300px;
-    height: 250px;
+    width: 90%;
+    height: 100%;
     margin-right: 20px;
     border: 1px solid black;
 }
@@ -180,27 +193,33 @@
 }
 
 #about3{
-    top: 40px;
+    padding-top: 20px;
     padding-left: 40px;
+    text-align: justify;
     line-height: 2;
 }
 
 #carousel3{
-    padding-top: 10px;
     padding-left: 40px;
 
 }
 
 #vid3{
-    padding-top: 20px;
     padding-left: 40px;
+}
+
+#buttons3{
+    margin-bottom: 20px;
+}
+
+#details3{
+    height: 245px;
 }
 
 /*-----------------------------------------------------------------*/
 /*UBass*/
 
 #uBassBG{
-    padding-bottom: 20px;
     background: linear-gradient(to bottom, #5d4157, #a8caba);
 }
 
@@ -214,8 +233,8 @@
 }
 
 #uBass{
-    width: 300px;
-    height: 250px;
+    width: 90%;
+    height: 200px;
     margin-right: 20px;
     border: 1px solid black;
 }
@@ -226,20 +245,27 @@
 }
 
 #about4{
-    top: 40px;
+    padding-top: 20px;
     padding-left: 40px;
+    text-align: justify;
     line-height: 2;
 }
 
 #carousel4{
-    padding-top: 10px;
     padding-left: 40px;
 
 }
 
 #vid4{
-    padding-top: 20px;
     padding-left: 40px;
+}
+
+#buttons4{
+    margin-bottom: 20px;
+}
+
+#details4{
+    height: 245px;
 }
 
 /*-----------------------------------------------------------------*/

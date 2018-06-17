@@ -57,3 +57,100 @@
 
 
 /*----------------------------------------------------*/
+
+#link1 a{
+    color: white;
+    text-decoration: none;
+}
+#link1{
+    padding-top: 20px;
+}
+
+#img1 img{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 250px;
+}
+
+#img1 h1{
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#about1{
+    padding-top: 80px;
+    text-align: justify;
+}
+
+#about1 button{
+    font-size: 18px;
+}
+
+/*----------------------------------------------------*/
+
+#link2 a{
+    color: white;
+    text-decoration: none;
+}
+#link2{
+    padding-top: 20px;
+}
+
+#img2 img{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 250px;
+    height: 100px;
+}
+
+#img2 h1{
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#about2{
+    padding-top: 80px;
+    text-align: justify;
+}
+
+#about2 button{
+    font-size: 18px;
+}
+
+/*----------------------------------------------------*/
+
+#link3 button a{
+    color: white;
+    text-decoration: none;
+}
+#link3{
+    padding-top: 20px;
+}
+
+#img3 img{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 250px;
+}
+
+#img3 h1{
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#about3{
+    padding-top: 80px;
+    text-align: justify;
+}
+
+#about3 button{
+    font-size: 18px;
+}
+
+
+
+/*----------------------------------------------------*/
+
+.btn{
+    height: 50px;
+    width: 70px;
+    font-size: 20px;
+    background-color: #94542e;
+}
