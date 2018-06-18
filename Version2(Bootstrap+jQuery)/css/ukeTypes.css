@@ -14,7 +14,7 @@
 .Jumbatron{
     padding-top: 20px;
     position: relative;
-    background-image: url("img/ukeBG.jpg");
+    background-image: url("../img/ukeBG.jpg");
     background-position: 0 0;
     background-repeat: repeat-y;
     animation: animate 40s linear infinite;
@@ -58,11 +58,13 @@
 
 /*----------------------------------------------------*/
 
-/*Banjolele*/
-
-#banjoleleBG{
-    background: linear-gradient(to bottom, #304352, #d7d2cc);
+#BG{
+    background-color: #e6e6e6;
 }
+
+/*----------------------------------------------------*/
+
+/*Banjolele*/
 
 
 #banjoleleH{
@@ -77,8 +79,8 @@
 #banjolele{
     position: relative;
     top: 10px;
-    width: 90%;
-    height: 100%;
+    width: 220px;
+    height: 200px;
     margin-right: 20px;
     border: 1px solid black;
 }
@@ -114,9 +116,6 @@
 /*-----------------------------------------------------------------*/
 /*Harp Ukulele*/
 
-#harpUkeBG{
-    background: linear-gradient(to bottom, #373b44, #73c8a9);
-}
 
 #harpUkeH{
     font-family: 'Amatic SC', cursive;
@@ -128,8 +127,8 @@
 }
 
 #harpUkulele{
-    width: 90%;
-    height: 100%;
+    width: 220px;
+    height: 200px;
     margin-right: 20px;
     border: 1px solid black;
 }
@@ -167,10 +166,6 @@
 /*-----------------------------------------------------------------*/
 /*Electric Ukulele*/
 
-#eleUkeBG{
-    background: linear-gradient(to bottom, #649173, #dbd5a4);
-}
-
 #eleUkeH{
     font-family: 'Amatic SC', cursive;
     position: relative;
@@ -181,8 +176,8 @@
 }
 
 #electricUkulele{
-    width: 90%;
-    height: 100%;
+    width: 220px;
+    height: 200px;
     margin-right: 20px;
     border: 1px solid black;
 }
@@ -219,10 +214,6 @@
 /*-----------------------------------------------------------------*/
 /*UBass*/
 
-#uBassBG{
-    background: linear-gradient(to bottom, #5d4157, #a8caba);
-}
-
 #uBassH{
     font-family: 'Amatic SC', cursive;
     position: relative;
@@ -233,7 +224,7 @@
 }
 
 #uBass{
-    width: 90%;
+    width: 220px;
     height: 200px;
     margin-right: 20px;
     border: 1px solid black;
@@ -293,3 +284,24 @@
 /*-----------------------------------------------------------------*/
 
 
+.divider1{
+    border-bottom: #00264d solid 2px;
+    margin-left: 20px;
+}
+
+.divider2{
+    border-bottom: #00264d solid 2px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.divider3{
+    border-bottom: #00264d solid 2px;
+    margin-right: 20px;
+}
+
+.divider4{
+    border-bottom: #00264d solid 2px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
