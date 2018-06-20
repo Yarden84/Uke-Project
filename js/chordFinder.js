@@ -126,27 +126,37 @@
 			var dot2 =  document.getElementById('greenDot2');
 			var dot3 =  document.getElementById('greenDot3');
 			var dot4 =  document.getElementById('greenDot4');
-			
-			var chordparts = findChord(notes, chord1, chord2);
+
+			if (chord1 != "-" && chord2 != "-"){
+				var chordparts = findChord(notes, chord1, chord2);
 
 
-			var p = Number(document.getElementById('position').value);
-			
-			/*alert ('P is: ' + p);*/
-			placeDot (string1, chordparts, dot1, p);
-			placeDot (string2, chordparts, dot2, p);
-			placeDot (string3, chordparts, dot3, p);
-			placeDot (string4, chordparts, dot4, p);
+				var p = Number(document.getElementById('position').value);
 
+				/*alert ('P is: ' + p);*/
+				placeDot (string1, chordparts, dot1, p);
+				placeDot (string2, chordparts, dot2, p);
+				placeDot (string3, chordparts, dot3, p);
+				placeDot (string4, chordparts, dot4, p);
+            }
 
 		}
 
 		function showChordSelect2(){
-			document.getElementById('Major').style.display = 'inline';
-			document.getElementById('Minor').style.display = 'inline';
-			document.getElementById('Seven').style.display = 'inline';
-			document.getElementById('m7').style.display = 'inline';
-			document.getElementById('maj7').style.display = 'inline';
+			if (document.getElementById('chordSelect1').value != "-"){
+				document.getElementById('Major').style.display = 'inline';
+				document.getElementById('Minor').style.display = 'inline';
+				document.getElementById('Seven').style.display = 'inline';
+				document.getElementById('m7').style.display = 'inline';
+				document.getElementById('maj7').style.display = 'inline';
+            }
+            else {
+                document.getElementById('Major').style.display = 'none';
+                document.getElementById('Minor').style.display = 'none';
+                document.getElementById('Seven').style.display = 'none';
+                document.getElementById('m7').style.display = 'none';
+                document.getElementById('maj7').style.display = 'none';
+			}
 		}
 		
 		function resetChord2(){
@@ -157,9 +167,23 @@
 			document.getElementById('greenDot4').style.display = 'none';			
 		}
 
+		function resetDots(){
+			if (document.getElementById('chordSelect2').value == "-"){
+                document.getElementById('greenDot1').style.display = 'none';
+                document.getElementById('greenDot2').style.display = 'none';
+                document.getElementById('greenDot3').style.display = 'none';
+                document.getElementById('greenDot4').style.display = 'none';
+			}
+		}
 
 		function resetPosition(){
 			document.getElementById('position').options[0].selected = 'selected';
+		}
+
+		function changeStartHere(){
+			if(document.getElementById('chordSelect1').options[0].innerHTML != "-"){
+                document.getElementById('chordSelect1').options[0].innerHTML = "-";
+			}
 		}
 		
 

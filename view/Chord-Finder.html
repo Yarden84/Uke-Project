@@ -63,8 +63,8 @@
 			<br>
 			<form>
 				<label>?איזה אקורד עושה לך את זה</label>
-				<select id="chordSelect1" onchange="showChordSelect2(); displayImg(); resetChord2(); resetPosition()">
-					<option value="-">-</option>
+				<select id="chordSelect1" onchange="showChordSelect2(); displayImg(); resetChord2(); resetPosition(); changeStartHere()">
+					<option value="-">:התחל כאן</option>
 					<option value="A">A</option>
 					<option value="Bb">Bb</option>
 					<option value="B">B</option>
@@ -78,7 +78,7 @@
 					<option value="G">G</option>
 					<option value="G#">G#</option>
 				</select>
-				<select id="chordSelect2" onchange="resetPosition(); displayImg() ">
+				<select id="chordSelect2" onchange="resetDots(); resetPosition(); displayImg()">
 					<option value="-">-</option>
 					<option value="Major" id="Major">Major</option>
 					<option value="Minor" id="Minor">Minor</option>
@@ -94,8 +94,6 @@
 					<option value="1">1</option>
 					<option value="2">2</option>
 					<option value="3">3</option>
-					<option value="4">4</option>
-					<option value="5">5</option>
 				</select>
 			</form>
 

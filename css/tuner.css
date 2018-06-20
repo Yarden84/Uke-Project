@@ -80,9 +80,8 @@
 /*---------------------------------------*/
 
 #headline{
-	/*position: relative;*/
 	background-color: rgb(148,84,46);
-	height: 149px;
+	height: 90px;
 	
 }
 
@@ -94,35 +93,36 @@
 }
 
 
+
 #bottomLine{
 	margin-top: 50px;
 	background-color: rgb(148,84,46);
-	height: 149px;
+	height: 90px;
 }
 
 
 #btnG{
 	position: relative;
-	bottom: 265px;
+	bottom: 115px;
 	left: 235px;
 }
 
 
 #btnC{
 	position: relative;
-	bottom: 265px;
+	bottom: 115px;
 	left: 97px;
 }
 
 #btnE{
 	position: relative;
-	bottom: 340px;
+	bottom: 190px;
 	left: 65px;
 }
 
 #btnA{
 	position: relative;
-	bottom: 342px;
+	bottom: 192px;
 	left: 132px;
 }
 
