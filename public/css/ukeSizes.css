@@ -8,6 +8,11 @@
 	src: url("../fonts/nehama/Nehama.ttf")
 }
 
+@font-face {
+	font-family: Drugulin CLM;
+	src: url("../fonts/drugulin/DrugulinCLM-Bold.ttf")
+}
+
 /*Main Page*/
 
 /*----------------------------------------------------*/
