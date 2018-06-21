@@ -32,15 +32,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Uke-Types.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/Uke-Types.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="189" column="61" selection-start-line="189" selection-start-column="61" selection-end-line="189" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -159,15 +150,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -190,16 +178,6 @@
               <item name="Version2(Bootstrap+jQuery)" type="b2602c69:ProjectViewProjectNode" />
               <item name="Version2(Bootstrap+jQuery)" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Version2(Bootstrap+jQuery)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Version2(Bootstrap+jQuery)" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Version2(Bootstrap+jQuery)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Version2(Bootstrap+jQuery)" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -254,16 +232,15 @@
       <workItem from="1529075045211" duration="1871000" />
       <workItem from="1529161229534" duration="34049000" />
       <workItem from="1529327102630" duration="14000" />
-      <workItem from="1529327240803" duration="18556000" />
+      <workItem from="1529327240803" duration="18844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203596000" />
+    <option name="totallyTimeSpent" value="203884000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14128843" />
       <window_info anchor="bottom" id="TODO" order="6" />
