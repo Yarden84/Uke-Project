@@ -4,6 +4,10 @@
 
 }
 
+@font-face {
+	font-family: Nehama;
+	src: url("../fonts/nehama/Nehama.ttf")
+}
 
 /*Main Page*/
 
@@ -129,7 +133,7 @@
 }
 
 #welcome h1{
-	font-family: 'Nehama', serif;
+	font-family: Nehama;
 	font-size: 60px;
 	color: #761c19;
 }
