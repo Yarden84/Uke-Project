@@ -4,6 +4,7 @@
 
 }
 
+
 @font-face {
 	font-family: Nehama;
 	src: url("../fonts/nehama/Nehama.ttf")
@@ -19,6 +20,7 @@
 	padding-top: 20px;
 	position: relative;
 	background-image: url("../img/ukeBG.jpg");
+	background-size: cover;
 	background-position: 0 0;
 	background-repeat: repeat-y;
 	animation: animate 40s linear infinite;
@@ -78,8 +80,8 @@
 	color: white;
 	background-color: #ff9900;
 	border-right: 3px solid black;
-
 }
+
 
 .row footer{
 	color: black;

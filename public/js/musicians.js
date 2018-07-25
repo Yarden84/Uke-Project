@@ -83,3 +83,38 @@ function collapseBtn(x){
 	});
 
 }
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+//Special case - James Hill index page link:
+
+var jhLink = (localStorage.getItem('jhLink') == 'true');
+
+if (jhLink){
+	
+	$('#img-4').animate({
+		left: 370,
+		top: 30,
+		height: 200,
+		width: 200,
+	});
+
+	$('#textImg4').css('font-size', 35)
+	$('#textImg4').animate({
+		left: 370
+	});
+
+	$('#p-4').show();
+	$('#p-4').css('width', 720);
+	$('#p-4').animate({
+		bottom: 65
+	});
+	$('#img4').unbind('mouseenter mouseleave');
+
+	localStorage.setItem('jhLink', false);
+
+}

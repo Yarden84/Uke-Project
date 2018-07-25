@@ -23,6 +23,7 @@
 	padding-top: 20px;
 	position: relative;
 	background-image: url("../img/ukeBG.jpg");
+	background-size: cover;
 	background-position: 0 0;
 	background-repeat: repeat-y;
 	animation: animate 40s linear infinite;
@@ -83,6 +84,7 @@
 	position: relative;
 	margin-left: 30px;
 	top: 20px;
+	cursor: pointer;
 }
 
 #baritoneData{
@@ -119,6 +121,7 @@
 	position: relative;
 	padding-left: 80px;
 	top: 55px;
+	cursor: pointer;
 }
 
 #tenorData{
@@ -155,6 +158,7 @@
 	position: relative;
 	padding-left: 80px;
 	top: 84px;
+	cursor: pointer;
 }
 
 #concertData{
@@ -191,6 +195,7 @@
 	position: relative;
 	padding-left: 80px;
 	top: 126px;
+	cursor: pointer;
 }
 
 #sopranoData{
