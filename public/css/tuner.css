@@ -85,8 +85,13 @@
 /*---------------------------------------*/
 
 #headline{
+	font-family: 'Nehama', serif;
 	background-color: rgb(148,84,46);
-	height: 90px;
+	color: white;
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	text-align: right;
 	
 }
 
